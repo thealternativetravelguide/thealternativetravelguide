@@ -1,20 +1,23 @@
-.navbar-brand page-scroll {
+.page-top-font {
     font-family: 'Amatic SC', cursive;
+    font-size:40px;
     }
 .img-responsive center-block {
    background-size: cover;
    width:800px
-   height:400;
+   height:650px;
     }
  .carousel-caption {
     font-family: 'Amatic SC', cursive;
-    font-size:30px;
+    font-size:40px;
     }
-
- nav a {
+h3 { font-family: 'Amatic SC', cursive;
+font-size:40px;
+	}
+nav a {
    font-family: 'Amatic SC', cursive;
    background-color: transparent;
    background: transparent;
    border-color: transparent;
-   font-size:36px;
+   font-size:35px;
     }
