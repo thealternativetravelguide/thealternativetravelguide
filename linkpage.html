@@ -119,27 +119,32 @@ function goBack() {
 </div>
     
  <!-------Back to top Button ---------->
-<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-    
- <script>    
-    $(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-    });
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" 
+  role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
         
-    $('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-    }, 500);
+        $('#back-to-top').tooltip('show');
 });
-    </script>   
-        
-<!--------- Footer --------->
-<footer>
-  <p1>Copyright © </p1>
-</footer>
+</script>
+      
 </body>
 </html>
