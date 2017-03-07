@@ -51,7 +51,8 @@ nav a {
   width:640px;
   height:200px;
 }
-img.cities
+.cities
 {
+	width:100%;
   background-size:cover;
 }
