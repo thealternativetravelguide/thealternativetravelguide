@@ -58,9 +58,21 @@ nav a {
   	height:200px;
   	}
 
-
+.btn{
+  	background-color:black;
+  	border:none;
+  	margin:0;
+  	}
 .cities
 {
   width:100%;
   background-size:cover;
 }
+
+  .subscribe  {
+  	text-align:center;
+  	}
+  	.email{
+  	position:center;
+  	margin:0;
+  	}
