@@ -4,18 +4,23 @@
     }
  .carousel-caption {
     font-family: 'Amatic SC', cursive;
-    font-size:40px;
+    font-size:55px;
     }
-h3 { font-family: 'Amatic SC', cursive;
-font-size:40px;
+h3 { 
+	font-family: 'Amatic SC', cursive;
+    font-size:40px;
 	}
-h1 { font-family: 'Amatic SC', cursive;
-font-size:50px;
-text-align:center;
+h1 { 
+	font-family: 'Amatic SC', cursive;
+    font-size:50px;
+    text-align:center;
 	}
-h2 { font-family: 'Amatic SC', cursive;
-font-size:35px;
-text-align:center;
+h2 { 
+	font-family: 'Amatic SC', cursive;
+    font-size:35px;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 	}
 nav a {
    font-family: 'Amatic SC', cursive;
@@ -24,12 +29,15 @@ nav a {
    border-color: transparent;
    font-size:35px;
     }
-  p {font-family: 'Open Sans Condensed', sans-serif;
-  font-size:22px;
-  }
-  .container-fluid {
-  	width:auto;
-  	}
+  p {
+  	font-family: 'Open Sans Condensed', sans-serif;
+    font-size:22px;
+    text-align: center;  
+}
+.container-fluid {
+  width:auto;  	
+}
+
   .destinations p {
   	text-align:center;
   	}
@@ -40,19 +48,19 @@ nav a {
   .navbar-right {
   	padding:0px 10px 0px 5px;
   	}
-  .btn-primary{background-color:black;
+  .btn-primary{
+  	background-color:black;
   	border:none;
   	}
-  	 .item img {
-    width: 100%;
-    height: 200px;
-  }
-  img.carousel-inner {
-  width:640px;
-  height:200px;
-}
+  	.item img
+  	{
+  	width:100%;
+  	height:200px;
+  	}
+
+
 .cities
 {
-	width:100%;
+  width:100%;
   background-size:cover;
 }
