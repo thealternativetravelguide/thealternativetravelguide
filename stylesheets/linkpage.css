@@ -3,7 +3,7 @@ nav a {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
-   font-size:35px;
+   font-size: 35px;
     }
 
 /*----------- Main header -------------*/
@@ -70,7 +70,7 @@ h1 {
     url(http://www.visit-petersburg.ru/media/uploads/album/151/978_detail_page.jpg) no-repeat;
     background-size: cover;
   color:black;
-  padding: 100px 180px 100px 180px;
+  padding: 120px 200px 120px 200px;
   margin: 50px 0px 50px 0px;
 }
 .picture2 {
@@ -79,7 +79,7 @@ h1 {
     url(https://d13yacurqjgara.cloudfront.net/users/724070/screenshots/2434544/freedom-anticafe_1x.png) no-repeat;
     background-size: cover;
   color:black;
-  padding: 100px 180px 100px 180px;
+  padding: 120px 200px 120px 200px;
   margin: 50px 0px 50px 0px;
 }
 .picture3 {
@@ -88,7 +88,7 @@ h1 {
     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjprGO6Z9S9mKQJa2NsKksOkskbgeSmcEt-kda9DNvqmWagqjj) no-repeat;
     background-size: cover;
   color:black;
-  padding: 100px 180px 100px 180px;
+  padding: 120px 200px 120px 200px;
   margin: 50px 0px 50px 0px;
 }
 h2 {
@@ -98,8 +98,8 @@ h2 {
     text-align: center; 
 }
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-family: 'Comic Sans Condensed', sans-serif;
+    font-size: 22px;
     color: grey;
     text-align: center;
     padding: 50px 10px 50px 10px;
