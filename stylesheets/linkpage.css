@@ -1,4 +1,4 @@
- .page-top-font {
+.page-top-font {
     font-family: 'Amatic SC', cursive;
     font-size: 40px;
     }
@@ -73,7 +73,7 @@ h1 {
     opacity: 0.6;
 }
 /*----------- Content -------------*/
- .parent {
+.parent {
   display: flex;
      width: 100%;
   justify-content: center;
@@ -178,6 +178,20 @@ p {
 	color: white;
 	font-size: 33px
 }
+.map h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding: 80px 60px 80px 60px;
+    margin-top:0em;
+}
+.map {
+text-align: center;
+display:block;
+float:center;
+}
+
 
 
 
