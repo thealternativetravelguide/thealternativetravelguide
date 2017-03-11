@@ -71,10 +71,22 @@ nav a {
   background-size:cover;
 }
 
-  .subscribe  {
-  	text-align:center;
-  	}
+
   	.email{
   	position:center;
   	margin:0;
   	}
+
+.social {
+    min-height: 100%;
+padding-top: 50px;
+text-align: center;
+}
+
+#social-buttons button {
+float: center;
+color: white;
+}
+.col-lg-12{
+text-align: center;
+}
