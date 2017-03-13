@@ -16,7 +16,7 @@
 <!----CSS---->
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="./stylesheets/linkpage.css">
-    <link rel="icon" href="http://img.freeflagicons.com/thumb/round_icon/united_kingdom/united_kingdom_640.png">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAABqCAMAAAAMYqrNAAAAJ1BMVEX////WLB8AOKUAOaTQLiW1OUJgK14NMpMAMJhWeL8AOKcAMZdWeb7bTqPSAAAAnklEQVR4nO3TQQrCQBAF0XaixrTe/7wOkwNkUQs/Uo+GD7MqCKmSJEmSJEmSJP2r43OcF7r1mt7rMrfGtK3L3BWYzEDKQMpAykDKQMpAykDKQMpAykDKQMpAKj9wC1c9Ro+eF7rV3edD6OZ/4l//BFdqD1fPcPUIV/dwdQtnIGUgZSBlIGUgZSBlIGUgZSBlIGUgZSBlIGUgZSBlIPUFZzNd1Uzj75gAAAAASUVORK5CYII=">
     
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -35,7 +35,7 @@
 </head>
 
 <body>
-<div id="containerLondon">
+<div id="container">
     
 <!--NavBar-->
 <div class='container-fluid'>
@@ -130,7 +130,7 @@ function goBack() {
   width="600"
   height="600"
   frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALniGCP0VcvQTf5QodTVbLQkgWem43pmA&q=London" allowfullscreen>
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALniGCP0VcvQTf5QodTVbLQkgWem43pmA&q=Milan" allowfullscreen>
 </iframe>
 </div>
 </div>
@@ -169,3 +169,62 @@ function goBack() {
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+					
+
+				<h3> Lady Dinah's Cat Emporium </h3>
+
+					<img src="./images/ladydinahslogo.png">
+
+					<p> After a day filled with culture and excitement, settle down to a nice cup of tea and scones, and cats! Situated in Shoreditch, Lady Dinah’s Cat Emporium is the first cat café in London and will give you a different experience of a café. The two-story café is lined with sofas and bookcases and has resident cats wandering around. Catering for vegan, gluten-free, and vegetarian diets, the café offers a range of teas, coffees, and small snacks. The café also do a special high tea with cats and have knit with cats evenings.
+					<br> Lady Dinah’s is a must go, but be sure to <a href="http://ladydinahs.com/"> book</a>! This place is very popular and requires booking. Daily walk-ins are rare, but check out their Twitter for <a href="https://twitter.com/search?q=%23ladydinahswalkins"> updates</a>. </p>
+
+
+
+				
+
+<!-------Back to top Button ---------->
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" 
+  role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+  <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+});
+</script>
+
+
+</body>
+</html>
