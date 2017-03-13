@@ -90,3 +90,10 @@ color: white;
 .col-lg-12{
 text-align: center;
 }
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+
